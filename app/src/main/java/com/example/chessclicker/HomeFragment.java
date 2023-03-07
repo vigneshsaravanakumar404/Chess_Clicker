@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.ScaleAnimation;
+import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -22,7 +23,7 @@ import java.util.Random;
 
 public class HomeFragment extends Fragment {
 
-    int animationTime, eloPerClick;
+    int scaleAnimationTime, translateAnimationTime, eloPerClick;
     Random random = new Random();
 
 
@@ -32,20 +33,20 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
-        // start up Variables
+        // Setup
         ImageView imageView = view.findViewById(R.id.imageView);
         eloPerClick = 0;
-        animationTime = 100;
-
-        // ImageView Code
+        scaleAnimationTime = 100;
+        translateAnimationTime = 500;
         imageView.setMaxWidth(50);
         imageView.setMaxHeight(50);
 
-        // Animation Code
+
+        // Scale Animation
         final ScaleAnimation scaleAnimation = new ScaleAnimation(0.9F, 1F, 0.9F, 1F, Animation.RELATIVE_TO_SELF, 0.5F, Animation.RELATIVE_TO_SELF, 0.5F);
         final ScaleAnimation scaleAnimationReverse = new ScaleAnimation(1F, 0.9F, 1F, 0.9F, Animation.RELATIVE_TO_SELF, 0.5F, Animation.RELATIVE_TO_SELF, 0.5F);
-        scaleAnimation.setDuration(animationTime);
-        scaleAnimationReverse.setDuration(animationTime);
+        scaleAnimation.setDuration(scaleAnimationTime);
+        scaleAnimationReverse.setDuration(scaleAnimationTime);
         scaleAnimationReverse.setAnimationListener(new Animation.AnimationListener() {
             @Override
             public void onAnimationStart(Animation animation) {
@@ -67,42 +68,52 @@ public class HomeFragment extends Fragment {
             // Animate The Clicker
             v.startAnimation(scaleAnimationReverse);
 
-            // Animated +0
             if (event.getAction() == MotionEvent.ACTION_DOWN) {
                 int x = (int) event.getRawX();
                 int y = (int) event.getRawY();
 
 
-                // TextView Parameters
+                // Particle Parameters
+                TranslateAnimation translateAnimation = new TranslateAnimation(Animation.RELATIVE_TO_SELF, 0f, Animation.RELATIVE_TO_SELF, 0f, Animation.RELATIVE_TO_SELF, 0f, Animation.RELATIVE_TO_SELF, -1f);
+                translateAnimation.setDuration(translateAnimationTime);
                 ConstraintLayout layout = view.findViewById(R.id.relativeLayout);
+
                 TextView scoreView = new TextView(getContext());
                 scoreView.setText("+" + eloPerClick);
                 scoreView.setTextColor(Color.WHITE);
-                //scoreView.setBackgroundColor(Color.WHITE);
                 scoreView.setGravity(Gravity.CENTER);
+                scoreView.startAnimation(translateAnimation);
+
+                ImageView boardView = new ImageView(getContext());
+                boardView.setImageResource(R.drawable.board);
+                boardView.startAnimation(translateAnimation);
+                boardView.setAlpha(0.5f);
 
                 // Layout Parameters
                 scoreView.measure(View.MeasureSpec.UNSPECIFIED, View.MeasureSpec.UNSPECIFIED);
-                ConstraintLayout.LayoutParams layoutParams = new ConstraintLayout.LayoutParams(
-                        ConstraintLayout.LayoutParams.WRAP_CONTENT,
-                        ConstraintLayout.LayoutParams.WRAP_CONTENT
-                );
+                ConstraintLayout.LayoutParams layoutParams = new ConstraintLayout.LayoutParams(ConstraintLayout.LayoutParams.WRAP_CONTENT, ConstraintLayout.LayoutParams.WRAP_CONTENT);
                 layoutParams.leftMargin = 0;
                 layoutParams.topMargin = 0;
-                layoutParams.width = scoreView.getMeasuredWidth
-                        ();
+                layoutParams.width = scoreView.getMeasuredWidth();
                 layoutParams.height = scoreView.getMeasuredHeight();
 
-                // Apply Layout Permissions
+                // Apply Layout Parameters
                 scoreView.setLayoutParams(layoutParams);
                 scoreView.setX((x - scoreView.getMeasuredWidth() / 2f) + random.nextInt(74) - 37);
                 scoreView.setY((y - scoreView.getMeasuredHeight() / 2f) - 315);
 
-                // Add and delete scoreTexVView
-                layout.addView(scoreView);
-                new Handler().postDelayed(() -> layout.removeView(scoreView), 500);
-            }
+                boardView.setLayoutParams(layoutParams);
+                boardView.setX((x - 10f)); // Set x position to be in the center of the 20 pixel width
+                boardView.setY((y - 10f) - 265); // Set y position to be in the center of the 20 pixel height
 
+                // Add and delete Particles
+                layout.addView(scoreView);
+                layout.addView(boardView);
+                new Handler().postDelayed(() -> layout.removeView(scoreView), translateAnimationTime);
+                new Handler().postDelayed(() -> layout.removeView(boardView), translateAnimationTime);
+
+
+            }
             return true;
         });
         return view;
@@ -111,15 +122,19 @@ public class HomeFragment extends Fragment {
 }
 
 // Requirements
-//TODO: ADD IMAGE ON CLICK AND ANIMATE IT
-//TODO: ANIMATE +0
-//TODO: OTHER REQUIREMENTS
+//TODO: Upgrades
+//TODO: FORMAT/COMMENT/ORGANIZE CODE
+//TODO: RENAME EVERYTHING
+//TODO: PICK BETTER COLORS
 
 
 // Features:
 // Forced to Portrait
+// Custom Vector assets
+// Cost/Income Progression
+// Circular Image View
 //TODO: SOUND EFFECTS
-//TODO: FRAGMENTS FOR EACH MENU
+//TODO: PUT IN CUSTOM VECTOR ASSETS
 //TODO: ACHIEVEMENTS
 //TODO: LOTS OF UPGRADES
 //TODO: SPECIAL UPGRADES
@@ -127,3 +142,11 @@ public class HomeFragment extends Fragment {
 //TODO: VISUAL/VISUAL MENU FOR ALL AUTO GENERATED ELO METHODS
 //TODO: SAVE DATA
 //TODO: ADD BADGES FOR THE NUMBER OF UPGRADES AVAILABLE
+//TODO: REMOVE ACTION BAR
+//TODO: MAKE APP NAME
+//TODO: CREATE SPLASH SCREEN
+//TODO: NAME APP
+
+
+// Resources
+/* Blunder Prevention (Chess.com Bluncer image), Tactics (mikhial Tal), Brilliant Move Factory (Chess.com Brilliant moves icon),Botez Gambit (Botze Sisters), Oh no my Queen (Eric rosen), Premoves (Andrew Tang), Speed (Hikaru), Endgame (Magnus Carlsen),, "Special Assistance" (Haans Nieman), Stockfish (Computer)*/

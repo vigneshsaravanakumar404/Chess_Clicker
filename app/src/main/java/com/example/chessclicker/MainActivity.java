@@ -7,14 +7,18 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 
 public class MainActivity extends AppCompatActivity {
 
-    BottomNavigationView bottomNavigationView;
 
+    BottomNavigationView bottomNavigationView;
     HomeFragment homeFragment = new HomeFragment();
     ViewFragment viewFragment = new ViewFragment();
     UpgradesFragment upgradesFragment = new UpgradesFragment();
+    AtomicInteger score;
+
 
     @SuppressLint("NonConstantResourceId")
     @Override
@@ -22,11 +26,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        score = new AtomicInteger(0);
         bottomNavigationView = findViewById(R.id.bottom_navigation);
-
         getSupportFragmentManager().beginTransaction().replace(R.id.container, homeFragment).commit();
-
-
 
         bottomNavigationView.setOnItemSelectedListener(item -> {
             switch (item.getItemId()) {
@@ -43,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
             return false;
         });
+
 
     }
 }
