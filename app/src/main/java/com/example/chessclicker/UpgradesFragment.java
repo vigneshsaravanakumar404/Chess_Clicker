@@ -21,7 +21,7 @@ public class UpgradesFragment extends Fragment {
         Upgrades upgrades = new Upgrades(getActivity());
         View view = inflater.inflate(R.layout.fragment_upgrades, container, false);
         listView = view.findViewById(R.id.list_view);
-        listView.setAdapter(upgrades);
+
 
         return view;
 

@@ -22,7 +22,7 @@
 15-->[androidx.core:core:1.9.0] C:\Users\Vigne\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:4:5-18:19
+17-->C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:4:5-19:19
 18        android:allowBackup="true"
 18-->C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:5:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -31,8 +31,8 @@
 21        android:extractNativeLibs="false"
 22        android:icon="@mipmap/ic_launcher"
 22-->C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:6:9-43
-23        android:label="@string/app_name"
-23-->C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:7:9-41
+23        android:label="Chess Clicker"
+23-->C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:7:9-38
 24        android:roundIcon="@mipmap/ic_launcher_round"
 24-->C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:8:9-54
 25        android:supportsRtl="true"
@@ -42,7 +42,7 @@
 27-->C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:10:9-50
 28        <activity
 28-->C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:11:9-17:20
-29            android:name="com.example.chessclicker.MainActivity"
+29            android:name="com.example.chessclicker.SplashScreen"
 29-->C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:11:19-47
 30            android:exported="true" >
 30-->C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:11:48-71
@@ -57,28 +57,31 @@
 34-->C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:15:27-74
 35            </intent-filter>
 36        </activity>
-37
-38        <provider
-38-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vigne\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-39            android:name="androidx.startup.InitializationProvider"
-39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vigne\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-40            android:authorities="com.example.chessclicker.androidx-startup"
-40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vigne\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-41            android:exported="false" >
-41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vigne\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-42            <meta-data
-42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vigne\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-43                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vigne\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-44                android:value="androidx.startup" />
-44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vigne\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-45            <meta-data
-45-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vigne\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-46                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-46-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vigne\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-47                android:value="androidx.startup" />
-47-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vigne\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-48        </provider>
-49    </application>
-50
-51</manifest>
+37        <activity android:name="com.example.chessclicker.MainActivity" />
+37-->C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:18:9-49
+37-->C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:18:19-47
+38
+39        <provider
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vigne\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+40            android:name="androidx.startup.InitializationProvider"
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vigne\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+41            android:authorities="com.example.chessclicker.androidx-startup"
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vigne\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+42            android:exported="false" >
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vigne\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+43            <meta-data
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vigne\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vigne\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+45                android:value="androidx.startup" />
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vigne\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+46            <meta-data
+46-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vigne\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vigne\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+48                android:value="androidx.startup" />
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vigne\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+49        </provider>
+50    </application>
+51
+52</manifest>

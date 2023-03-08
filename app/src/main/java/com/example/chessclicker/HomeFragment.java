@@ -2,6 +2,7 @@ package com.example.chessclicker;
 
 import android.annotation.SuppressLint;
 import android.graphics.Color;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.Gravity;
@@ -23,8 +24,12 @@ import java.util.Random;
 
 public class HomeFragment extends Fragment {
 
+
+
     int scaleAnimationTime, translateAnimationTime, eloPerClick;
     Random random = new Random();
+
+
 
 
     @SuppressLint({"ClickableViewAccessibility", "SetTextI18n"})
@@ -34,6 +39,7 @@ public class HomeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
         // Setup
+        final MediaPlayer mediaPlayer = MediaPlayer.create(getActivity(), R.raw.clickb);
         ImageView imageView = view.findViewById(R.id.imageView);
         eloPerClick = 0;
         scaleAnimationTime = 100;
@@ -67,6 +73,7 @@ public class HomeFragment extends Fragment {
 
             // Animate The Clicker
             v.startAnimation(scaleAnimationReverse);
+            mediaPlayer.start();
 
             if (event.getAction() == MotionEvent.ACTION_DOWN) {
                 int x = (int) event.getRawX();
@@ -122,31 +129,36 @@ public class HomeFragment extends Fragment {
 }
 
 // Requirements
-//TODO: Upgrades
-//TODO: FORMAT/COMMENT/ORGANIZE CODE
-//TODO: RENAME EVERYTHING
-//TODO: PICK BETTER COLORS
+    //TODO: Get Upgrades to display
+    //TODO: Upgrades functionality
+    //TODO: ANIMATION TO INDICATE PURCHASABLE
+    //TODO: THREAD SAFE PASSIVE INCOME CALCULATOR
+
+// Appearance
+    //TODO: FORMAT/COMMENT/ORGANIZE CODE
+    //TODO: RENAME EVERYTHING
+    //TODO: PICK BETTER COLORS
+    //TODO: MAKE BETTER SPLASH SCREEN
 
 
 // Features:
-// Forced to Portrait
-// Custom Vector assets
-// Cost/Income Progression
-// Circular Image View
-//TODO: SOUND EFFECTS
-//TODO: PUT IN CUSTOM VECTOR ASSETS
-//TODO: ACHIEVEMENTS
-//TODO: LOTS OF UPGRADES
-//TODO: SPECIAL UPGRADES
-//TODO: STATS
-//TODO: VISUAL/VISUAL MENU FOR ALL AUTO GENERATED ELO METHODS
-//TODO: SAVE DATA
-//TODO: ADD BADGES FOR THE NUMBER OF UPGRADES AVAILABLE
-//TODO: REMOVE ACTION BAR
-//TODO: MAKE APP NAME
-//TODO: CREATE SPLASH SCREEN
-//TODO: NAME APP
+    // Forced to Portrait
+    // Custom Vector assets
+    // Cost/Income Progression
+    // Circular Image View
+    // SOUND EFFECTS
+    // NAME APP
+    // REMOVE ACTION BAR
+    // CREATE SPLASH SCREEN
+    //TODO: Animated Background
+    //TODO: Generate Passive income
+    //TODO: PUT IN CUSTOM VECTOR ASSETS
+    //TODO: LOTS OF UPGRADES
+    //TODO: SAVE DATA
+    //TODO: ADD BADGES FOR THE NUMBER OF UPGRADES AVAILABLE
+    //TODO: APP ICON
+
 
 
 // Resources
-/* Blunder Prevention (Chess.com Bluncer image), Tactics (mikhial Tal), Brilliant Move Factory (Chess.com Brilliant moves icon),Botez Gambit (Botze Sisters), Oh no my Queen (Eric rosen), Premoves (Andrew Tang), Speed (Hikaru), Endgame (Magnus Carlsen),, "Special Assistance" (Haans Nieman), Stockfish (Computer)*/
+    /* Blunder Prevention (Chess.com Bluncer image), Tactics (mikhial Tal), Brilliant Move Factory (Chess.com Brilliant moves icon),Botez Gambit (Botze Sisters), Oh no my Queen (Eric rosen), Premoves (Andrew Tang), Speed (Hikaru), Endgame (Magnus Carlsen),, "Special Assistance" (Haans Nieman), Stockfish (Computer)*/

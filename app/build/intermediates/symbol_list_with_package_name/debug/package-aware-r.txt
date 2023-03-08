@@ -3060,6 +3060,7 @@ id listLayout
 id listMode
 id list_item
 id list_view
+id logo_id
 id m3_side_sheet
 id marquee
 id masked
@@ -3505,11 +3506,13 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout splashscreen
 layout support_simple_spinner_dropdown_item
 menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw clickb
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
