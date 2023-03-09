@@ -24,11 +24,8 @@ import java.util.Random;
 
 public class HomeFragment extends Fragment {
 
-
-
     int scaleAnimationTime, translateAnimationTime, eloPerClick;
     Random random = new Random();
-
 
 
 
@@ -107,11 +104,11 @@ public class HomeFragment extends Fragment {
                 // Apply Layout Parameters
                 scoreView.setLayoutParams(layoutParams);
                 scoreView.setX((x - scoreView.getMeasuredWidth() / 2f) + random.nextInt(74) - 37);
-                scoreView.setY((y - scoreView.getMeasuredHeight() / 2f) - 315);
+                scoreView.setY((y - scoreView.getMeasuredHeight() / 2f) - 45);
 
                 boardView.setLayoutParams(layoutParams);
                 boardView.setX((x - 10f)); // Set x position to be in the center of the 20 pixel width
-                boardView.setY((y - 10f) - 265); // Set y position to be in the center of the 20 pixel height
+                boardView.setY((y - 10f) - 25); // Set y position to be in the center of the 20 pixel height
 
                 // Add and delete Particles
                 layout.addView(scoreView);
@@ -129,36 +126,36 @@ public class HomeFragment extends Fragment {
 }
 
 // Requirements
-    //TODO: Get Upgrades to display
-    //TODO: Upgrades functionality
-    //TODO: ANIMATION TO INDICATE PURCHASABLE
-    //TODO: THREAD SAFE PASSIVE INCOME CALCULATOR
+//TODO: Get Upgrades to display
+//TODO: Upgrades functionality
+//TODO: ANIMATION TO INDICATE PURCHASABLE
+//TODO: THREAD SAFE PASSIVE INCOME CALCULATOR
 
 // Appearance
-    //TODO: FORMAT/COMMENT/ORGANIZE CODE
-    //TODO: RENAME EVERYTHING
-    //TODO: PICK BETTER COLORS
-    //TODO: MAKE BETTER SPLASH SCREEN
+//TODO: FORMAT/COMMENT/ORGANIZE CODE
+//TODO: RENAME EVERYTHING
+//TODO: PICK BETTER COLORS
+//TODO: MAKE BETTER SPLASH SCREEN
+//TODO: MAKE THE BOTTOM NAVIGATION BAR LOOK BETTER
 
 
 // Features:
-    // Forced to Portrait
-    // Custom Vector assets
-    // Cost/Income Progression
-    // Circular Image View
-    // SOUND EFFECTS
-    // NAME APP
-    // REMOVE ACTION BAR
-    // CREATE SPLASH SCREEN
-    //TODO: Animated Background
-    //TODO: Generate Passive income
-    //TODO: PUT IN CUSTOM VECTOR ASSETS
-    //TODO: LOTS OF UPGRADES
-    //TODO: SAVE DATA
-    //TODO: ADD BADGES FOR THE NUMBER OF UPGRADES AVAILABLE
-    //TODO: APP ICON
-
+// Forced to Portrait
+// Custom Vector assets
+// Cost/Income Progression
+// Circular Image View
+// SOUND EFFECTS
+// NAME APP
+// REMOVE ACTION BAR
+// CREATE SPLASH SCREEN
+// PUT IN CUSTOM VECTOR ASSETS
+// APP ICON
+//TODO: Animated Background
+//TODO: ADD BADGES FOR THE NUMBER OF UPGRADES AVAILABLE
+//TODO: Generate Passive income
+//TODO: LOTS OF UPGRADES
+//TODO: SAVE DATA
 
 
 // Resources
-    /* Blunder Prevention (Chess.com Bluncer image), Tactics (mikhial Tal), Brilliant Move Factory (Chess.com Brilliant moves icon),Botez Gambit (Botze Sisters), Oh no my Queen (Eric rosen), Premoves (Andrew Tang), Speed (Hikaru), Endgame (Magnus Carlsen),, "Special Assistance" (Haans Nieman), Stockfish (Computer)*/
+/* Blunder Prevention (Chess.com Bluncer image), Tactics (mikhial Tal), Brilliant Move Factory (Chess.com Brilliant moves icon),Botez Gambit (Botze Sisters), Oh no my Queen (Eric rosen), Premoves (Andrew Tang), Speed (Hikaru), Endgame (Magnus Carlsen),, "Special Assistance" (Haans Nieman), Stockfish (Computer)*/

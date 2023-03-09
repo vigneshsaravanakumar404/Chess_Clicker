@@ -89,7 +89,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Vi
 	android:roundIcon
 		ADDED from C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:8:9-54
 	android:icon
-		ADDED from C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:6:9-43
+		ADDED from C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:6:9-38
 	android:allowBackup
 		ADDED from C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:5:9-35
 	android:theme

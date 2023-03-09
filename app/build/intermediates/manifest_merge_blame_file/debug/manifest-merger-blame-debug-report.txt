@@ -29,8 +29,8 @@
 19-->[androidx.core:core:1.9.0] C:\Users\Vigne\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 20        android:debuggable="true"
 21        android:extractNativeLibs="false"
-22        android:icon="@mipmap/ic_launcher"
-22-->C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:6:9-43
+22        android:icon="@drawable/pawn"
+22-->C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:6:9-38
 23        android:label="Chess Clicker"
 23-->C:\Users\Vigne\AndroidStudioProjects\ChessClicker\app\src\main\AndroidManifest.xml:7:9-38
 24        android:roundIcon="@mipmap/ic_launcher_round"

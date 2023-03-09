@@ -4,32 +4,24 @@
         "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-anydpi-v33\\ic_launcher.xml"
-    },
-    {
-        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\drawable_bgblue.jpg.flat",
-        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\drawable\\bgblue.jpg"
+        "merged": "com.example.chessclicker.app-merged_res-30:/layout_activity_main.xml.flat",
+        "source": "com.example.chessclicker.app-main-32:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\layout_fragment_home.xml.flat",
         "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\layout_fragment_view.xml.flat",
-        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\layout\\fragment_view.xml"
-    },
-    {
         "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\drawable_board.png.flat",
-        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\drawable\\board.png"
-    },
-    {
         "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\drawable_storetile.jpg.flat",
         "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\drawable\\storetile.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -40,10 +32,6 @@
         "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\layout\\custom_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\drawable\\ic_launcher_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\layout_fragment_upgrades.xml.flat",
         "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\layout\\fragment_upgrades.xml"
     },
@@ -52,32 +40,116 @@
         "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\drawable_baseline_store_24.xml.flat",
-        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\drawable\\baseline_store_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\drawable_pawn.png.flat",
-        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\drawable\\pawn.png"
-    },
-    {
         "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\drawable_background.xml.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\drawable\\background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\drawable_pawnvectorimage.png.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\drawable\\pawnvectorimage.png"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-anydpi-v33\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\drawable_bgblue.jpg.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\drawable\\bgblue.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\layout_fragment_view.xml.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\layout\\fragment_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\drawable_board.png.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\drawable\\board.png"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\drawable_pawn.png.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\drawable\\pawn.png"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\drawable_baseline_store_24.xml.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\drawable\\baseline_store_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\layout_splashscreen.xml.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\layout\\splashscreen.xml"
     },
     {
         "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\xml_backup_rules.xml.flat",
@@ -88,12 +160,8 @@
         "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.chessclicker.app-merged_res-30:/layout_splashscreen.xml.flat",
-        "source": "com.example.chessclicker.app-main-32:/layout/splashscreen.xml"
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\drawable-v24_ic_launcher_foreground.xml.flat",
@@ -112,12 +180,16 @@
         "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\raw\\clickb.mp3"
     },
     {
-        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\drawable_background.xml.flat",
-        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\drawable\\background.xml"
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\drawable_pawnvector.xml.flat",
+        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\drawable\\pawnvector.xml"
     },
     {
         "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\drawable_pawnparticle.png.flat",
@@ -126,10 +198,6 @@
     {
         "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\drawable_pawnvectoricon.xml.flat",
         "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\drawable\\pawnvectoricon.xml"
-    },
-    {
-        "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\drawable_pawnvectorimage.png.flat",
-        "source": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-main-32:\\drawable\\pawnvectorimage.png"
     },
     {
         "merged": "C:\\Users\\Vigne\\.gradle\\daemon\\7.5\\com.example.chessclicker.app-merged_res-30:\\mipmap-hdpi_ic_launcher.webp.flat",
